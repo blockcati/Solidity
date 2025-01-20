@@ -1,7 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract Abc{
+contract MagicBox{
+
+    function sayHello()public pure returns (string memory){
+
+return"Hello Friend";
+
+    }
 
     
 
